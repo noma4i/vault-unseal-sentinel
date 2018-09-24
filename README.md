@@ -10,7 +10,7 @@
 
 - `VAULT_ADDR` - pointing to your vault instance
 - `UNSEAL_KEYS` - list of unseal tokens whitespace separated
-- `RECHECK_TIME` - deafults to 10 seconds but you are free to override it
+- `RECHECK_TIME` - defaults to 10 seconds but you are free to override it
 
 Example:
 

@@ -1,0 +1,8 @@
+version: '3'
+services:
+  vault:
+    container_name: vault.unseal-sentinel
+    build: .
+    environment:
+      - VAULT_ADDR=http://vault.example.com:8200
+      - UNSEAL_KEYS=KEY_ONE KEY_TWO KEY_THREE
